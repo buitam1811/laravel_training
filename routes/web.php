@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/laravel_training', function () {
+    return view('blade-exercise.components.content');
+});
