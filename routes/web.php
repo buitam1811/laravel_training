@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MemberController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\StudentController;
@@ -31,3 +32,5 @@ Route::put('/posts/{post}/update', [PostController::class, 'update']);
 Route::get('/posts/{post}/show', [PostController::class, 'show']);
 
 Route::get('/students/index', [StudentController::class, 'index']);
+
+Route::get('/members/index', [MemberController::class, 'index']);

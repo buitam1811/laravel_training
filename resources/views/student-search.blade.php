@@ -13,8 +13,8 @@
         <input type="number" name="id" id="id">
         <label for="name">Name: </label>
         <input type="text" name="name" id="name">
-        <label for="id">Class: </label>
-        <input type="class" name="class" id="class">
+        <label for="class">Class: </label>
+        <input type="text" name="class" id="class">
         <button type="submit">Search</button>
     </form>
     @foreach ($students as $student)
